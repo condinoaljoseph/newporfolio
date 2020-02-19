@@ -1,0 +1,14 @@
+#main-logo {
+  enable-background: new 0 0 141.562 112.3;
+  width: 4rem;
+  height: auto;
+  fill: #fff;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+#main-logo:hover {
+  transform: scale(1.1);
+  -webkit-filter: drop-shadow(1px 1px 2px #222);
+  filter: drop-shadow(1px 1px 2px #222);
+}
