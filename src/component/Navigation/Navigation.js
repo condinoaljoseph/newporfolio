@@ -25,7 +25,7 @@ const Navigation = () => {
         </li>
         <li>
           <a href={Resume} download>
-            Resume <span class='lnr lnr-download'></span>
+            Resume <span className='lnr lnr-download'></span>
           </a>
         </li>
       </ul>
