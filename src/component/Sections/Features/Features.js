@@ -37,7 +37,7 @@ const Features = () => {
             <h3>Deployment</h3>
             <ul>
               <li>Git</li>
-              <li>Netlify</li>
+              <li>Heroku</li>
             </ul>
           </div>
         </div>

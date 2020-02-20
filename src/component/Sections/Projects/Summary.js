@@ -10,7 +10,12 @@ const Summary = ({ content }) => {
         <h3 style={backStyles}>{title}</h3>
         <h4>{details}</h4>
         <p>{description}</p>
-        <a href={source_link} style={backStyles}>
+        <a
+          href={source_link}
+          style={backStyles}
+          target='_blank'
+          rel='noopener noreferrer'
+        >
           Source Code
         </a>
       </div>

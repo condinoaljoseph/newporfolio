@@ -128,12 +128,16 @@ table {
   border-spacing: 0;
 }
 
+/* end of reset */
+html {
+  font-size: 16px;
+}
+
 body {
   background: #f7f7f7;
   margin: 0;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
-  font-size: 1rem;
   line-height: 1.7;
   color: #777;
   -webkit-font-smoothing: antialiased;
@@ -154,7 +158,7 @@ header {
   background: linear-gradient(
       to right bottom,
       rgba(30, 115, 172, 0.7),
-      rgba(142, 57, 153, 0.6)
+      rgba(206, 154, 212, 0.6)
     ),
     url('https://source.unsplash.com/1600x900/?computer') center/cover;
   color: #fff;
@@ -169,7 +173,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2.5rem 0;
+  padding: 2.5em 0;
+  font-size: 1rem;
 }
 .nav_bar nav ul {
   display: flex;
@@ -177,7 +182,7 @@ header {
   justify-content: flex-end;
 }
 .nav_bar nav ul li {
-  margin-left: 1rem;
+  margin-left: 1em;
 }
 .nav_bar nav ul li a {
   text-decoration: none;
@@ -189,7 +194,7 @@ header {
   content: '';
   position: absolute;
   left: 0;
-  bottom: -0.3rem;
+  bottom: -0.3em;
   width: 100%;
   height: 2px;
   background: #fff;
@@ -201,7 +206,7 @@ header {
 }
 .nav_bar nav ul li a span.lnr {
   font-weight: 700;
-  margin-left: 7px;
+  margin-left: 0.4em;
 }
 
 .banner {
@@ -209,38 +214,40 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   height: 55vh;
+  font-size: 1rem;
 }
 .banner h1 {
   text-transform: uppercase;
   margin-bottom: 0.6rem;
-  line-height: 1;
-  font-size: 3.6rem;
-  letter-spacing: 0.3rem;
-  margin-right: 0.3rem;
+  line-height: 1.2;
+  font-size: 3.6em;
+  letter-spacing: 0.1em;
+  margin-right: -0.1em;
 }
 .banner p {
-  font-size: 1.4rem;
+  font-size: 1.4em;
   font-weight: 400;
   text-transform: uppercase;
-  letter-spacing: 0.3rem;
-  margin-right: 0.3rem;
-  margin-bottom: 1.7rem;
+  letter-spacing: 0.2em;
+  margin-right: -0.2em;
+  margin-bottom: 1.7em;
 }
 .banner a {
   background: #fff;
   color: #777;
   text-transform: uppercase;
-  padding: 0.8rem 2rem;
+  padding: 0.8em 2em;
   display: inline-block;
-  border-radius: 7rem;
-  font-size: 0.9rem;
+  border-radius: 7em;
+  font-size: 0.9em;
   text-decoration: none;
   transition: all 0.2s;
 }
 .banner a:hover {
   transform: scale(1.1);
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.21);
+  box-shadow: 0 1em 2em rgba(0, 0, 0, 0.21);
 }
 
 .about {
@@ -249,18 +256,20 @@ header {
 
 .about_con {
   padding: 3.5rem 0 0;
+  font-size: 1rem;
 }
 .about_con h2 {
-  font-size: 2.2rem;
+  font-size: 2.2em;
   text-transform: uppercase;
   font-weight: 700;
   background-image: linear-gradient(to right, #64495e, #4c5f9a);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  letter-spacing: 2px;
+  letter-spacing: 0.05em;
+  margin-right: -0.05em;
   text-align: center;
-  margin-bottom: 4rem;
+  margin-bottom: 2em;
 }
 .about_con h2 span {
   display: block;
@@ -272,15 +281,15 @@ header {
 }
 
 .about_info {
-  margin-right: 1.8rem;
+  margin-right: 1.8em;
 }
 .about_info > div {
-  margin-bottom: 2rem;
+  margin-bottom: 2em;
 }
 .about_info > div h3 {
   text-transform: uppercase;
   font-weight: 700;
-  margin-bottom: 0.8rem;
+  margin-bottom: 0.8em;
 }
 
 .about_stacks ul {
@@ -288,7 +297,7 @@ header {
   justify-content: flex-end;
 }
 .about_stacks ul li img {
-  width: 95%;
+  width: 8em;
   -webkit-filter: drop-shadow(1px 1px 2px #222);
   filter: drop-shadow(1px 1px 2px #222);
   transition: all 0.2s;
@@ -311,26 +320,27 @@ header {
   padding: 16rem 0;
   display: flex;
   justify-content: space-between;
+  font-size: 1rem;
 }
 
 .feature_box {
   background-color: rgba(255, 255, 255, 0.8);
-  padding: 2rem;
+  padding: 2em;
   text-align: center;
   border-radius: 3px;
-  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1.5em 4em rgba(0, 0, 0, 0.15);
   transition: transform 0.3s;
-  flex-basis: 15%;
+  flex-basis: 16%;
 }
 .feature_box h3 {
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 1rem;
-  margin-bottom: 0.8rem;
+  font-size: 1em;
+  margin-bottom: 0.8em;
 }
 .feature_box .lnr {
-  font-size: 4rem;
-  margin-bottom: 1.3rem;
+  font-size: 4em;
+  margin-bottom: 0.2em;
   background-image: linear-gradient(to right, #64495e, #4c5f9a);
   background-clip: text;
   -webkit-background-clip: text;
@@ -340,21 +350,26 @@ header {
 .feature_box:hover {
   transform: scale(1.07);
 }
+.feature_box ul li {
+  font-size: 0.9em;
+}
 
 .projects_con {
   padding: 1rem 0 2rem;
+  font-size: 1rem;
 }
 .projects_con h2 {
-  font-size: 2.2rem;
+  font-size: 2.2em;
   text-transform: uppercase;
   font-weight: 700;
   background-image: linear-gradient(to right, #64495e, #4c5f9a);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  letter-spacing: 2px;
+  letter-spacing: 0.05em;
+  margin-right: -0.05em;
   text-align: center;
-  margin-bottom: 4rem;
+  margin-bottom: 2em;
 }
 
 .cards {
@@ -368,8 +383,8 @@ header {
   border-radius: 3px;
   flex-basis: 30%;
   height: 320px;
-  margin-bottom: 5rem;
-  perspective: 150rem;
+  margin-bottom: 5em;
+  perspective: 150em;
 }
 .card_inner {
   position: relative;
@@ -378,7 +393,7 @@ header {
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
-  box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1.5em 2em rgba(0, 0, 0, 0.15);
 }
 .card:hover .card_inner {
   transform: rotateY(180deg);
@@ -403,20 +418,20 @@ header {
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-  padding: 1.5rem;
+  padding: 1.5em;
 }
 .card_back p {
-  font-size: 1.3rem;
-  margin-bottom: 2rem;
+  font-size: 1.3em;
+  margin-bottom: 2em;
 }
 .card_back button {
   background: #fff;
   color: #777;
   text-transform: uppercase;
-  padding: 0.8rem 2rem;
+  padding: 0.8em 2em;
   display: inline-block;
-  border-radius: 7rem;
-  font-size: 0.9rem;
+  border-radius: 7em;
+  font-size: 0.9em;
   text-decoration: none;
   transition: all 0.2s;
   cursor: pointer;
@@ -424,12 +439,12 @@ header {
 }
 .card_back button:hover {
   transform: scale(1.1);
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.21);
+  box-shadow: 0 1em 2em rgba(0, 0, 0, 0.21);
 }
 .card_heading {
   height: 8rem;
   box-sizing: border-box;
-  padding: 1rem 1rem 2rem;
+  padding: 1em 1em 2em;
   background-blend-mode: screen;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
@@ -439,7 +454,7 @@ header {
 }
 .card_heading h4 {
   text-align: right;
-  font-size: 1.6rem;
+  font-size: 1.6em;
   line-height: 1.3;
   text-transform: uppercase;
   color: #fff;
@@ -449,13 +464,14 @@ header {
   display: block;
 }
 .card_details {
-  padding: 1rem 3rem;
+  padding: 1em 3em;
   color: darkslategrey;
   box-sizing: border-box;
 }
 .card_details ul li {
   text-align: center;
-  padding: 0.2rem;
+  padding: 0.2em;
+  font-size: 0.9em;
 }
 .card_details ul li:not(:last-child) {
   border-bottom: 1px solid #eee;
@@ -467,14 +483,15 @@ footer {
 
 .footer_con {
   padding: 3rem 0 2rem;
+  font-size: 1rem;
 }
 
 .footer_logo {
   text-align: center;
-  margin-bottom: 3rem;
+  margin-bottom: 3em;
 }
 .footer_logo #main-logo {
-  width: 6rem;
+  width: 6em;
 }
 
 .footer_bottom {
@@ -483,14 +500,14 @@ footer {
 }
 .footer_bottom nav {
   border-top: 1px solid #fff;
-  padding-top: 1rem;
+  padding-top: 1em;
 }
 .footer_bottom nav ul {
   display: flex;
   justify-content: flex-start;
 }
 .footer_bottom nav ul li {
-  margin-right: 1.5rem;
+  margin-right: 1em;
 }
 .footer_bottom nav ul li:last-child {
   margin-right: 0;
@@ -505,7 +522,7 @@ footer {
   content: '';
   position: absolute;
   left: 0;
-  bottom: -0.3rem;
+  bottom: -0.3em;
   width: 100%;
   height: 2px;
   background: #fff;
@@ -517,27 +534,27 @@ footer {
 }
 .footer_bottom nav ul li a span.lnr {
   font-weight: 700;
-  margin-left: 7px;
+  margin-left: 0.4em;
 }
 .footer_bottom .author {
   border-top: 1px solid #fff;
-  padding-top: 1rem;
+  padding-top: 1em;
 }
 .footer_bottom .author p {
-  color: #f2f56a;
+  color: #61dbfb;
   text-transform: uppercase;
 }
 .footer_bottom .author p a {
   text-decoration: none;
   color: #fff;
-  margin-left: 0.3rem;
+  margin-left: 0.3em;
   position: relative;
 }
 .footer_bottom .author p a:before {
   content: '';
   position: absolute;
   left: 0;
-  bottom: -0.3rem;
+  bottom: -0.3em;
   width: 100%;
   height: 2px;
   background: #fff;
@@ -584,43 +601,44 @@ footer {
   flex-basis: 30%;
   padding: 2rem;
   align-self: center;
+  font-size: 1rem;
 }
 .summary .details h3 {
-  font-size: 1.7rem;
+  font-size: 1.7em;
   text-transform: uppercase;
   font-weight: 700;
   display: inline-block;
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  letter-spacing: 2px;
+  letter-spacing: 0.03em;
   transition: all 0.2s;
   line-height: 1.3;
   margin-bottom: 1rem;
 }
 .summary .details h4 {
-  font-size: 1rem;
+  font-size: 1em;
   font-weight: 700;
   text-transform: uppercase;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.5em;
 }
 .summary .details p {
-  font-size: 0.9rem;
+  font-size: 0.9em;
   margin-bottom: 2rem;
-  line-height: 1.2;
+  line-height: 1.6;
 }
 .summary .details a {
   color: #fff;
   text-transform: uppercase;
   text-decoration: none;
-  padding: 0.8rem 2rem;
+  padding: 0.8em 2em;
   display: inline-block;
-  border-radius: 10rem;
+  border-radius: 10em;
   transition: all 0.2s;
-  font-size: 1rem;
+  font-size: 1em;
   transition: transform 0.3s ease;
 }
 .summary .details a:hover {
-  box-shadow: 0 0.18rem 0.2rem rgba(0, 0, 0, 0.6);
-  transform: translateY(-0.1rem);
+  box-shadow: 0 0.18em 0.2em rgba(0, 0, 0, 0.6);
+  transform: translateY(-0.1em);
 }

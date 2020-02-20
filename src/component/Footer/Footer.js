@@ -8,13 +8,15 @@ const Footer = () => {
       <div className='container'>
         <div className='footer_con'>
           <div className='footer_logo'>
-            <Logo />
+            <a href='#hero'>
+              <Logo />
+            </a>
           </div>
           <div className='footer_bottom'>
             <Navigation />
             <div className='author'>
               <p>
-                Site by <a href='#top'>Al Joseph Condino</a>
+                Site by <a href='#!'>Al Joseph Condino</a>
               </p>
             </div>
           </div>
