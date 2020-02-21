@@ -48,6 +48,21 @@
   .cards {
     justify-content: space-evenly;
   }
+  .summary {
+    flex-direction: column;
+  }
+  .summary .showcase {
+    height: 60%;
+  }
+
+  .summary .details {
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 0.9rem;
+    height: 40%;
+    padding: 1.5em 1em;
+  }
 }
 
 @media (max-width: 800px) {

@@ -1,3 +1,10 @@
+import Accuair from './gif/accuair.gif';
+import FaceRecognition from './gif/facerecognition.gif';
+import Qeeper from './gif/queeper.gif';
+import GithubFinder from './gif/githubfinder.gif';
+import SharePosts from './gif/shareposts.gif';
+import Ulogger from './gif/ulogger.gif';
+
 const lists = [
   {
     id: 1,
@@ -7,6 +14,7 @@ const lists = [
       'Simple IT technician logging app built with React and JSONPlaceholder',
     source_link: 'https://github.com/condinoaljoseph/ulogger',
     page_link: 'https://condinoaljoseph.github.io/ulogger/',
+    project_img: `${Ulogger}`,
     styles: {
       background:
         'linear-gradient(to right bottom, #eca026,rgba(185, 19, 19, 0.911)), url(https://source.unsplash.com/1600x900/?notes) center / cover'
@@ -23,6 +31,7 @@ const lists = [
     description: 'Access your contacts anywhere with this app',
     source_link: 'https://github.com/condinoaljoseph/queeper',
     page_link: 'https://pure-reaches-65126.herokuapp.com',
+    project_img: `${Qeeper}`,
     styles: {
       background:
         'linear-gradient(to right bottom, #838383, #2e2e2e), url(https://source.unsplash.com/1600x900/?numbers) center / cover'
@@ -38,6 +47,7 @@ const lists = [
     description: 'Website for airconditioning company in Bohol Philippines',
     source_link: 'https://github.com/condinoaljoseph/Accuair',
     page_link: 'https://quirky-bassi-99bf67.netlify.com/',
+    project_img: `${Accuair}`,
     styles: {
       background:
         'linear-gradient(to right bottom, #44b2e6, #05044d), url(https://source.unsplash.com/1600x900/?aircondition) center / cover'
@@ -53,6 +63,7 @@ const lists = [
     description: 'Connect with github users by searching through this app',
     source_link: 'https://github.com/condinoaljoseph/githubfinder',
     page_link: 'https://githubfinder-0603.netlify.com/',
+    project_img: `${GithubFinder}`,
     styles: {
       background:
         'linear-gradient(to right bottom, #6b330e, #978f1c), url(https://source.unsplash.com/1600x900/?programming) center / cover'
@@ -69,6 +80,7 @@ const lists = [
       'Simple CRUD functionality website built with my MVC framework',
     source_link: 'https://github.com/condinoaljoseph/Shareposts',
     page_link: '',
+    project_img: `${SharePosts}`,
     styles: {
       background:
         'linear-gradient(to right bottom, #9c1283, #aa2b15), url(https://source.unsplash.com/1600x900/?cellphone) center / cover'
@@ -79,11 +91,12 @@ const lists = [
   },
   {
     id: 6,
-    title: 'Movie Cloud',
-    details: 'HTML5 | CSS3, React | Redux, MovieDB Api, Netlify',
-    description: 'Movie app for searching all the information about movies',
-    source_link: '#demolink',
-    page_link: 'https://pure-reaches-65126.herokuapp.com',
+    title: 'Face Recognition App',
+    details: 'HTML5 | CSS3, React, Clarifai, Tachyons',
+    description: 'A simple face recognition app powered by clarifai',
+    source_link: 'https://github.com/condinoaljoseph/facerecognition',
+    page_link: 'https://condinoaljoseph.github.io/facerecognition/',
+    project_img: `${FaceRecognition}`,
     styles: {
       background:
         'linear-gradient(to right bottom, #396b2a, #1b2e21), url(https://source.unsplash.com/1600x900/?movie) center / cover'
