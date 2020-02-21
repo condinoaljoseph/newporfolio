@@ -592,6 +592,7 @@ footer {
 .summary {
   display: flex;
   height: 100%;
+  align-items: center;
 }
 .summary .showcase {
   flex-grow: 3;
