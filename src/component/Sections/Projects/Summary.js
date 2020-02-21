@@ -23,7 +23,7 @@ const Summary = ({ content }) => {
       backStyles: content.backStyles,
       project_img: content.project_img
     });
-    // setLoading(false);
+    setLoading(false);
   }, [content]);
 
   const {
